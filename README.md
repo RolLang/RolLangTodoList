@@ -7,6 +7,8 @@
 * Virtual function type check.
 * Backtracking of sub-traits (multiple levels).
 * Check the use of ```additionalUd``` in ```LoadTraitFunctionCacheInfo```.
+* Redirect field, constant, trait.
+* ```REF_CONSTRAIN``` for function, virtual function (v/i), field.
 
 ## Loader constrain module
 * Rename "constrain" to "constraint". (too late?)
@@ -48,3 +50,20 @@
 * Allow ```GetRefArgList``` without target.
 * Make functions to be static whenever possible.
 * Support more necessary stages for loading limit check.
+
+## Interpreter
+* Instructions for referencing fields and functions.
+* Analysis of stack layout.
+
+## Features not implemented
+* Parameter pack.
+  * Argument list segment support.
+  * Variable size segment.
+  * Reference list expanding support.
+  * Reference list expanding level control.
+  * Constrain type deduction.
+  * Parameter.
+  * Field.
+* Partial specialization (type overload).
+  * Variable-sized object.
+  * Attribute.
