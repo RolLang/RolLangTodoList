@@ -39,7 +39,6 @@
 
 ## Features not implemented
 * Parameter pack.
-  * Argument list segment support.
   * Variable size segment.
   * Reference list expanding support.
   * Reference list expanding level control.
@@ -47,5 +46,7 @@
   * Parameter.
   * Field.
 * Partial specialization (type overload).
-  * Variable-sized object.
-  * Attribute.
+* Metadata type.
+* RawArray.
+* Variable-sized object.
+* Attribute.
